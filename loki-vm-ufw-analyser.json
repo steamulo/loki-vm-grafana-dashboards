@@ -421,7 +421,6 @@
           "uid": "${datasource}"
         },
         "definition": "",
-        "includeAll": true,
         "label": "instance",
         "multi": true,
         "name": "instance",
