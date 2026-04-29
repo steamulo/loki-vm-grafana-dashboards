@@ -83,7 +83,7 @@
     {
       "datasource": {
         "type": "loki",
-        "uid": "${DS_LOKI-ANSIBLE}"
+        "uid": "${datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -168,7 +168,7 @@
         {
           "datasource": {
             "type": "loki",
-            "uid": "${DS_LOKI-ANSIBLE}"
+            "uid": "${datasource}"
           },
           "direction": "backward",
           "editorMode": "code",
@@ -182,7 +182,7 @@
     {
       "datasource": {
         "type": "loki",
-        "uid": "${DS_LOKI-ANSIBLE}"
+        "uid": "${datasource}"
       },
       "gridPos": {
         "h": 25,
@@ -210,7 +210,7 @@
         {
           "datasource": {
             "type": "loki",
-            "uid": "${DS_LOKI-ANSIBLE}"
+            "uid": "${datasource}"
           },
           "direction": "backward",
           "editorMode": "code",
@@ -236,7 +236,7 @@
         "current": {},
         "datasource": {
           "type": "loki",
-          "uid": "${DS_LOKI-ANSIBLE}"
+          "uid": "${datasource}"
         },
         "definition": "",
         "includeAll": false,
@@ -259,7 +259,7 @@
         "current": {},
         "datasource": {
           "type": "loki",
-          "uid": "${DS_LOKI-ANSIBLE}"
+          "uid": "${datasource}"
         },
         "definition": "",
         "includeAll": true,
