@@ -2,7 +2,7 @@
   "__inputs": [
     {
       "name": "DS_LOKI-ANSIBLE",
-      "label": "loki-ansible",
+      "label": "Loki-ansible",
       "description": "",
       "type": "datasource",
       "pluginId": "loki",
@@ -224,7 +224,7 @@
     }
   ],
   "preload": false,
-  "refresh": "5m",
+  "refresh": "",
   "schemaVersion": 42,
   "tags": [
     "logs",
@@ -294,11 +294,22 @@
         ],
         "query": "",
         "type": "textbox"
+      },
+      {
+        "current": {},
+        "hide": 2,
+        "label": "Datasource",
+        "name": "datasource",
+        "options": [],
+        "query": "loki",
+        "refresh": 1,
+        "regex": "",
+        "type": "datasource"
       }
     ]
   },
   "time": {
-    "from": "now-3h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {
@@ -317,6 +328,6 @@
   "timezone": "browser",
   "title": "Log Analyzer",
   "uid": "sadlil-loki-apps-dashboard1",
-  "version": 4,
+  "version": 5,
   "weekStart": ""
 }
